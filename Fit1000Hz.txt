@@ -1,0 +1,9 @@
+% -----------------------------------------------------------------------------------------------------------
+% Note: these parameters must be listed in precisely the order as orginally set to ensure correct variable assignment.
+% -> The surface state distribution is assumed to be the sum of many Gaussian distribtuions.
+% -----------------------------------------------------------------------------------------------------------
+
+-0.34        -0.6        -0.8          -1       -1.25        -1.3       -1.35  % The position of the mean energy of each surface state distribution
+0.1         0.1        0.05         0.1        0.18        0.15        0.15  % The width of the Gausian distribution
+5.282e-17   1.3148e-13        59.28        21.28     0.003648   1.6948e-14    2.698e-15  % Average area per surface state (ss)
+1.425e-10   1.425e-10   1.425e-10   1.425e-10   1.425e-10   1.425e-10   1.425e-10  % Distribution of the surface state in depth

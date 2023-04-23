@@ -1,0 +1,13 @@
+==================================================================================================================
+
+These instructions only pertain to the fits provided in the manuscript.
+
+To obtain the results for a given frequency, edit line 40 of "SemiconductorLiquidInterfaceSurfaceStates.m" to 
+specifiy the given frequency of interest: e.g.
+  freq = '50Hz';
+and run the script in Matlab.
+
+The results at the chosen frequency will then be saved in a Matlab file, in about 3 minutes or so, and plotted via 
+the script "PlottingDataSurfaceStates.m".
+
+==================================================================================================================

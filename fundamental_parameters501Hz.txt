@@ -1,0 +1,21 @@
+% -----------------------------------------------------------------------------------------------------------
+% Note: these parameters must be listed in precisely the order as orginally set to ensure correct variable assignment.
+% -----------------------------------------------------------------------------------------------------------
+
+% General parameters
+300;                          % Temperature in Kelvin
+
+% Semiconductor material parameters (currently set for Cu0.8Ga1.02S2 under frequency 10Hz )
+4.0;                          % Fermi level [eV]      
+2.41;                         % Energy band gap [eV]  
+5.8;                          % Dielectric constant (semiconductor)  
+10;                           % Electron effective mass/electron mass  
+0.8;                          % Hole effective mass/electron mass      
+0;                    % p-type: Acceptor density (#/m^3)
+1e24;              % n-type: Donor density (#/m^3)
+
+
+% Liquid parameters
+80;                             % Dielectric constant for water of the liquid  
+0.5;                            % Supporting electrolyte [M] -- mols  
+0.5;                            % Supporting electrolyte [M] -- mols 
